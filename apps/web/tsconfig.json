@@ -1,0 +1,15 @@
+{
+  "extends": "../../packages/config/tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "paths": {
+      "@internetperla/ui": ["../../packages/ui/src"],
+      "@internetperla/shared-dtos": ["../../packages/shared-dtos"]
+    }
+  },
+  "include": ["next-env.d.ts", "app/**/*.ts", "app/**/*.tsx", "next.config.js"],
+  "exclude": ["node_modules"]
+}

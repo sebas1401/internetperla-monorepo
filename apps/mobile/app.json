@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "internetperla-mobile",
+    "slug": "internetperla-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "sdkVersion": "51.0.0",
+    "platforms": ["ios", "android", "web"],
+    "extra": {
+      "apiBase": "http://localhost:3000/api/v1"
+    }
+  }
+}
+

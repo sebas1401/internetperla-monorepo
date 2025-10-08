@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+coverage/
+.env*
+apps/**/.env*
+apps/web/.next/
+apps/mobile/.expo/
+pnpm-lock.yaml
+

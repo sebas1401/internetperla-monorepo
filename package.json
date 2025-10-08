@@ -1,0 +1,21 @@
+{
+  "name": "internetperla",
+  "private": true,
+  "packageManager": "pnpm@10.18.1",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "dev:backend": "turbo run dev --filter=backend",
+    "dev:web": "turbo run dev --filter=web",
+    "dev:mobile": "turbo run dev --filter=mobile",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "turbo": "^2.5.8"
+  }
+}

@@ -1,0 +1,19 @@
+
+> backend@0.0.1 dev C:\Users\Sebastian Recinos\Documents\internetperla-monorepo\apps\backend
+> nest start --watch
+
+[2J[3J[H[[90m12:21:41 a. m.[0m] Starting compilation in watch mode...
+
+[[90m12:21:43 a. m.[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 26136  - [39m08/10/2025, 12:21:45 a. m. [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 26136  - [39m08/10/2025, 12:21:45 a. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +45ms[39m
+[32m[Nest] 26136  - [39m08/10/2025, 12:21:45 a. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 26136  - [39m08/10/2025, 12:21:45 a. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 26136  - [39m08/10/2025, 12:21:45 a. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 26136  - [39m08/10/2025, 12:21:45 a. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +36ms[39m
+[32m[Nest] 26136  - [39m08/10/2025, 12:21:45 a. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 26136  - [39m08/10/2025, 12:21:45 a. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAttendanceModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 26136  - [39m08/10/2025, 12:21:45 a. m. [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAttendanceController {/api/v1/attendance}:[39m[38;5;3m +34ms[39m
+[32m[Nest] 26136  - [39m08/10/2025, 12:21:45 a. m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/health, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 26136  - [39m08/10/2025, 12:21:45 a. m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/check, POST} route[39m[38;5;3m +0ms[39m

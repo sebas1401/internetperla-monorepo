@@ -1,0 +1,30 @@
+name: CI Mobile
+
+on:
+  push:
+    paths:
+      - "apps/mobile/**"
+      - "packages/shared-dtos/**"
+      - "packages/config/**"
+  pull_request:
+    paths:
+      - "apps/mobile/**"
+      - "packages/shared-dtos/**"
+      - "packages/config/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile=false
+      - run: pnpm -w lint
+      - run: pnpm -w build
+      - run: pnpm -w test --if-present
