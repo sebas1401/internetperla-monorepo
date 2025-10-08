@@ -19,6 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
+        with:
+          version: 10.18.1
       - run: pnpm -v && node -v
       - run: pnpm install --frozen-lockfile=false
       - run: pnpm -w lint
