@@ -1,5 +1,6 @@
 import { Entity, PrimaryGeneratedColumn, Column, Index, CreateDateColumn, UpdateDateColumn, OneToMany } from 'typeorm';
-import { AttendanceRecord } from './attendance-record.entity.js';
+import type { Relation } from 'typeorm';
+import type { AttendanceRecord } from './attendance-record.entity.js';
 
 export type EmployeeRole = 'admin' | 'empleado' | 'tecnico';
 
@@ -30,6 +31,6 @@ export class Employee {
   @UpdateDateColumn({ type: 'timestamp with time zone' })
   updatedAt!: Date;
 
-  @OneToMany(() => AttendanceRecord, (record) => record.employee)
-  attendanceRecords!: AttendanceRecord[];
+  @OneToMany('AttendanceRecord', (record: AttendanceRecord) => record.employee)
+  attendanceRecords!: Relation<AttendanceRecord[]>;
 }

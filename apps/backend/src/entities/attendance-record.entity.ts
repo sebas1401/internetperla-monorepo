@@ -1,4 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, Index, CreateDateColumn } from 'typeorm';
+import type { Relation } from 'typeorm';
 import { Employee } from './employee.entity.js';
 
 export type AttendanceType = 'IN' | 'OUT';
@@ -14,7 +15,7 @@ export class AttendanceRecord {
     onDelete: 'CASCADE',
   })
   @Index('IDX_attendance_employee')
-  employee!: Employee;
+  employee!: Relation<Employee>;
 
   @Column({ type: 'varchar', length: 3 })
   type!: AttendanceType;
