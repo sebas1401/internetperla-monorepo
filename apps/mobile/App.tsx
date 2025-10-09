@@ -36,7 +36,7 @@ function AttendanceScreen() {
       const res = await fetch(`${API_BASE}/attendance/health`);
       const json = await res.json();
       setStatus(json);
-    } catch (e) {
+    } catch (_error) {
       setStatus({ status: 'unavailable' });
     }
   };
