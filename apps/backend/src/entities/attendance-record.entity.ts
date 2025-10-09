@@ -9,7 +9,10 @@ export class AttendanceRecord {
   @PrimaryGeneratedColumn('uuid')
   id!: string;
 
-  @ManyToOne(() => Employee, (e) => e.attendanceRecords, { eager: true, onDelete: 'CASCADE' })
+  @ManyToOne(() => Employee, (employee: Employee) => employee.attendanceRecords, {
+    eager: true,
+    onDelete: 'CASCADE',
+  })
   @Index('IDX_attendance_employee')
   employee!: Employee;
 

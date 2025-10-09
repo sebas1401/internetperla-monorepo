@@ -1,14 +1,23 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createNativeStackNavigator, type NativeStackScreenProps } from '@react-navigation/native-stack';
 import { Button, Text, View, FlatList, TouchableOpacity } from 'react-native';
 import Constants from 'expo-constants';
 
-const Stack = createNativeStackNavigator();
+type RootStackParamList = {
+  Home: undefined;
+  Attendance: undefined;
+  Tasks: undefined;
+};
 
-const API_BASE = (Constants.expoConfig?.extra as any)?.apiBase || 'http://localhost:3000/api/v1';
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
-function HomeScreen({ navigation }: any) {
+type HomeScreenProps = NativeStackScreenProps<RootStackParamList, 'Home'>;
+
+const extras = Constants.expoConfig?.extra as { apiBase?: string } | undefined;
+const API_BASE = extras?.apiBase ?? 'http://localhost:3000/api/v1';
+
+function HomeScreen({ navigation }: HomeScreenProps) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', gap: 12 }}>
       <Text style={{ fontSize: 20, fontWeight: '600' }}>InternetPerla Mobile</Text>
@@ -19,7 +28,9 @@ function HomeScreen({ navigation }: any) {
 }
 
 function AttendanceScreen() {
-  const [status, setStatus] = React.useState<any>(null);
+  type HealthResponse = { status: string } & Record<string, unknown>;
+
+  const [status, setStatus] = React.useState<HealthResponse | null>(null);
   const ping = async () => {
     try {
       const res = await fetch(`${API_BASE}/attendance/health`);
