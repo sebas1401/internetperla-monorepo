@@ -1,20 +1,148 @@
 
-> backend@0.0.1 dev C:\Users\Sebastian Recinos\Documents\internetperla-monorepo\apps\backend
+> backend@0.0.1 dev C:\Users\kelge\Documents\GitHub\internetperla-monorepo\apps\backend
 > nest start --watch
 
-[2J[3J[H[[90m1:57:04 a. m.[0m] Starting compilation in watch mode...
+[2J[3J[H[[90m8:47:03 a.m.[0m] Starting compilation in watch mode...
 
-[[90m1:57:07 a. m.[0m] Found 0 errors. Watching for file changes.
+[[90m8:47:09 a.m.[0m] Found 0 errors. Watching for file changes.
 
-[32m[Nest] 19416  - [39m08/10/2025, 1:57:08 a. m. [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
-[32m[Nest] 19416  - [39m08/10/2025, 1:57:08 a. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +47ms[39m
-[32m[Nest] 19416  - [39m08/10/2025, 1:57:08 a. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 19416  - [39m08/10/2025, 1:57:08 a. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +7ms[39m
-[32m[Nest] 19416  - [39m08/10/2025, 1:57:08 a. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 19416  - [39m08/10/2025, 1:57:09 a. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +52ms[39m
-[32m[Nest] 19416  - [39m08/10/2025, 1:57:09 a. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 19416  - [39m08/10/2025, 1:57:09 a. m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAttendanceModule dependencies initialized[39m[38;5;3m +1ms[39m
-[32m[Nest] 19416  - [39m08/10/2025, 1:57:09 a. m. [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAttendanceController {/api/v1/attendance}:[39m[38;5;3m +37ms[39m
-[32m[Nest] 19416  - [39m08/10/2025, 1:57:09 a. m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/health, GET} route[39m[38;5;3m +2ms[39m
-[32m[Nest] 19416  - [39m08/10/2025, 1:57:09 a. m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/check, POST} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 19416  - [39m08/10/2025, 1:57:09 a. m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/records, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9808  - [39m15/10/2025, 8:47:13 a.m. [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 9808  - [39m15/10/2025, 8:47:13 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +102ms[39m
+[32m[Nest] 9808  - [39m15/10/2025, 8:47:13 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9808  - [39m15/10/2025, 8:47:13 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +11ms[39m
+[32m[Nest] 9808  - [39m15/10/2025, 8:47:13 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9808  - [39m15/10/2025, 8:47:13 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +150ms[39m
+[32m[Nest] 9808  - [39m15/10/2025, 8:47:13 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9808  - [39m15/10/2025, 8:47:13 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAttendanceModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9808  - [39m15/10/2025, 8:47:13 a.m. [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAttendanceController {/api/v1/attendance}:[39m[38;5;3m +100ms[39m
+[32m[Nest] 9808  - [39m15/10/2025, 8:47:13 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/health, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 9808  - [39m15/10/2025, 8:47:13 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/check, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9808  - [39m15/10/2025, 8:47:13 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/records, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9808  - [39m15/10/2025, 8:47:13 a.m. [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+🚀 API corriendo en: http://localhost:3000/api/docs
+[2J[3J[H[[90m10:25:00 a.m.[0m] File change detected. Starting incremental compilation...
+
+[[90m10:25:00 a.m.[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:25:01 a.m.[0m] File change detected. Starting incremental compilation...
+
+[[90m10:25:02 a.m.[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:25:03 a.m.[0m] File change detected. Starting incremental compilation...
+
+[[90m10:25:04 a.m.[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:25:06 a.m.[0m] File change detected. Starting incremental compilation...
+
+[[90m10:25:06 a.m.[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:25:10 a.m.[0m] File change detected. Starting incremental compilation...
+
+[[90m10:25:10 a.m.[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 6284  - [39m15/10/2025, 10:25:10 a.m. [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 25388  - [39m15/10/2025, 10:25:14 a.m. [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 25388  - [39m15/10/2025, 10:25:14 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +121ms[39m
+[32m[Nest] 25388  - [39m15/10/2025, 10:25:14 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 25388  - [39m15/10/2025, 10:25:14 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +12ms[39m
+[32m[Nest] 25388  - [39m15/10/2025, 10:25:14 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25388  - [39m15/10/2025, 10:25:14 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +102ms[39m
+[32m[Nest] 25388  - [39m15/10/2025, 10:25:14 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25388  - [39m15/10/2025, 10:25:14 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAttendanceModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 25388  - [39m15/10/2025, 10:25:14 a.m. [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAttendanceController {/api/v1/attendance}:[39m[38;5;3m +104ms[39m
+[32m[Nest] 25388  - [39m15/10/2025, 10:25:14 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/health, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 25388  - [39m15/10/2025, 10:25:14 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/check, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 25388  - [39m15/10/2025, 10:25:14 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/records, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 25388  - [39m15/10/2025, 10:25:14 a.m. [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+🚀 API corriendo en: http://localhost:3000/api/docs
+[2J[3J[H[[90m10:25:14 a.m.[0m] File change detected. Starting incremental compilation...
+
+[[90m10:25:14 a.m.[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 19200  - [39m15/10/2025, 10:25:18 a.m. [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 19200  - [39m15/10/2025, 10:25:18 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +96ms[39m
+[32m[Nest] 19200  - [39m15/10/2025, 10:25:18 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19200  - [39m15/10/2025, 10:25:18 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +12ms[39m
+[32m[Nest] 19200  - [39m15/10/2025, 10:25:18 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 19200  - [39m15/10/2025, 10:25:18 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +76ms[39m
+[32m[Nest] 19200  - [39m15/10/2025, 10:25:18 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19200  - [39m15/10/2025, 10:25:18 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAttendanceModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 19200  - [39m15/10/2025, 10:25:18 a.m. [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAttendanceController {/api/v1/attendance}:[39m[38;5;3m +82ms[39m
+[32m[Nest] 19200  - [39m15/10/2025, 10:25:18 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/health, GET} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 19200  - [39m15/10/2025, 10:25:18 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/check, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 19200  - [39m15/10/2025, 10:25:18 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/records, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 19200  - [39m15/10/2025, 10:25:18 a.m. [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+🚀 API corriendo en: http://localhost:3000/api/docs
+[2J[3J[H[[90m10:25:22 a.m.[0m] File change detected. Starting incremental compilation...
+
+[[90m10:25:22 a.m.[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m10:25:22 a.m.[0m] File change detected. Starting incremental compilation...
+
+[32m[Nest] 32424  - [39m15/10/2025, 10:25:26 a.m. [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 32424  - [39m15/10/2025, 10:25:26 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +90ms[39m
+[32m[Nest] 32424  - [39m15/10/2025, 10:25:26 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32424  - [39m15/10/2025, 10:25:26 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +15ms[39m
+[32m[Nest] 32424  - [39m15/10/2025, 10:25:26 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32424  - [39m15/10/2025, 10:25:26 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +63ms[39m
+[32m[Nest] 32424  - [39m15/10/2025, 10:25:26 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32424  - [39m15/10/2025, 10:25:26 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAttendanceModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32424  - [39m15/10/2025, 10:25:26 a.m. [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAttendanceController {/api/v1/attendance}:[39m[38;5;3m +67ms[39m
+[32m[Nest] 32424  - [39m15/10/2025, 10:25:26 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/health, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 32424  - [39m15/10/2025, 10:25:26 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/check, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 32424  - [39m15/10/2025, 10:25:26 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/records, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32424  - [39m15/10/2025, 10:25:26 a.m. [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+🚀 API corriendo en: http://localhost:3000/api/docs
+[2J[3J[H[[90m10:26:56 a.m.[0m] File change detected. Starting incremental compilation...
+
+[2J[3J[H[[90m10:41:27 a.m.[0m] File change detected. Starting incremental compilation...
+
+[[90m10:41:28 a.m.[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 7148  - [39m15/10/2025, 10:41:31 a.m. [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 7148  - [39m15/10/2025, 10:41:31 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +67ms[39m
+[32m[Nest] 7148  - [39m15/10/2025, 10:41:31 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7148  - [39m15/10/2025, 10:41:31 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 7148  - [39m15/10/2025, 10:41:31 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7148  - [39m15/10/2025, 10:41:31 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +61ms[39m
+[32m[Nest] 7148  - [39m15/10/2025, 10:41:31 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7148  - [39m15/10/2025, 10:41:31 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAttendanceModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 7148  - [39m15/10/2025, 10:41:31 a.m. [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAttendanceController {/api/v1/attendance}:[39m[38;5;3m +55ms[39m
+[32m[Nest] 7148  - [39m15/10/2025, 10:41:31 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/health, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 7148  - [39m15/10/2025, 10:41:31 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/check, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 7148  - [39m15/10/2025, 10:41:31 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/records, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 7148  - [39m15/10/2025, 10:41:31 a.m. [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+🚀 API corriendo en: http://localhost:3000/api/docs
+[2J[3J[H[[90m11:07:45 a.m.[0m] File change detected. Starting incremental compilation...
+
+[[90m11:07:45 a.m.[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 15204  - [39m15/10/2025, 11:07:51 a.m. [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 15204  - [39m15/10/2025, 11:07:51 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +100ms[39m
+[32m[Nest] 15204  - [39m15/10/2025, 11:07:51 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15204  - [39m15/10/2025, 11:07:51 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +13ms[39m
+[32m[Nest] 15204  - [39m15/10/2025, 11:07:51 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 15204  - [39m15/10/2025, 11:07:51 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +79ms[39m
+[32m[Nest] 15204  - [39m15/10/2025, 11:07:51 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15204  - [39m15/10/2025, 11:07:51 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAttendanceModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15204  - [39m15/10/2025, 11:07:51 a.m. [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAttendanceController {/api/v1/attendance}:[39m[38;5;3m +93ms[39m
+[32m[Nest] 15204  - [39m15/10/2025, 11:07:51 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/health, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 15204  - [39m15/10/2025, 11:07:51 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/check, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15204  - [39m15/10/2025, 11:07:51 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/records, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15204  - [39m15/10/2025, 11:07:51 a.m. [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+🚀 API corriendo en: http://localhost:3000/api/docs
+[2J[3J[H[[90m11:07:57 a.m.[0m] File change detected. Starting incremental compilation...
+
+[[90m11:07:59 a.m.[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 12184  - [39m15/10/2025, 11:08:03 a.m. [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 12184  - [39m15/10/2025, 11:08:04 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +147ms[39m
+[32m[Nest] 12184  - [39m15/10/2025, 11:08:04 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12184  - [39m15/10/2025, 11:08:04 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +18ms[39m
+[32m[Nest] 12184  - [39m15/10/2025, 11:08:04 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12184  - [39m15/10/2025, 11:08:04 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +99ms[39m
+[32m[Nest] 12184  - [39m15/10/2025, 11:08:04 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12184  - [39m15/10/2025, 11:08:04 a.m. [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAttendanceModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12184  - [39m15/10/2025, 11:08:04 a.m. [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAttendanceController {/api/v1/attendance}:[39m[38;5;3m +97ms[39m
+[32m[Nest] 12184  - [39m15/10/2025, 11:08:04 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/health, GET} route[39m[38;5;3m +6ms[39m
+[32m[Nest] 12184  - [39m15/10/2025, 11:08:04 a.m. [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/attendance/check, POST} route[39m[38;5;3m +1ms[39m

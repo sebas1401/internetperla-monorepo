@@ -1,6 +1,11 @@
 {
   "extends": "../../packages/config/tsconfig.base.json",
   "compilerOptions": {
+    "moduleResolution": "Bundler",
+    "baseUrl": ".",
+    "paths": {
+      "@internetperla/shared-dtos": ["../../packages/shared-dtos/index.ts"]
+    },
     "jsx": "react-jsx",
     "types": ["react", "react-native"]
   },

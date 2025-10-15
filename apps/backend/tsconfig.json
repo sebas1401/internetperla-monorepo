@@ -5,7 +5,11 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "module": "NodeNext",
-    "moduleResolution": "NodeNext"
+    "moduleResolution": "NodeNext",
+    "baseUrl": ".",
+    "paths": {
+      "@internetperla/shared-dtos": ["../../packages/shared-dtos/index.ts"]
+    }
   },
   "include": ["src"],
   "ts-node": {

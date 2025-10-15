@@ -1,0 +1,4 @@
+
+> @internetperla/shared-dtos@0.0.1 build C:\Users\kelge\Documents\GitHub\internetperla-monorepo\packages\shared-dtos
+> tsc -p tsconfig.json
+
